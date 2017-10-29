@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>dellcommandupdate</id>
-    <version>2.3.0</version>
+    <version>2.3.1</version>
     <packageSourceUrl>https://github.com/flcdrg/au-packages</packageSourceUrl>
     <owners>flcdrg, joenazz</owners>
     <title>Dell Command | Update</title>
@@ -29,12 +29,10 @@ Dell Command | Update provides the following new features:
 Supported on OptiPlex, Venue Pro Tablet, Precision, XPS Notebook and Latitude models that are running the following Windows operating systems: Windows 7,Windows 8, Windows 8.1 and Windows 10 </description>
     <releaseNotes>#### Fixes &amp; Enhancements
 ##### Fixes
-- Fixed condition in which an error was displayed when no updates were available for the system
+- Minor Bugs
 
 ##### Enhancements
-- Ability to view, select and install Independent Software Vendor (ISV) drivers via the command line interface (CLI)
-- Support for selecting and installing all updates associated with Dell Docking Solution.
-- Support for a new CLI return code: 5 to indicate that reboot and scan is required.</releaseNotes>
+- Added a warning message to prompt the user not to disconnect any peripheral devices like power adapters and USB Type-C devices, while installing BIOS and Firmware updates. </releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
